@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-weight: 200;
+}
+
+body {
+  background-color: #f3e6d8;
+}
+
+.recipe {
+  width: 70%;
+  background-color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  margin-top: 10rem;
+  padding: 2rem;
+
+  border-radius: 2rem;
+}
+
+.recipe__img,
+.recipe__img img {
+  width: 100%;
+}
+
+.recipe__header-main {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.recipe__text {
+  margin-bottom: 0.5rem;
+}
